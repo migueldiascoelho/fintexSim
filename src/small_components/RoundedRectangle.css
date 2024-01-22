@@ -1,0 +1,110 @@
+/* RoundedRectangle.css */
+
+.rounded-rectangle {
+  background-color: #3333333b;
+  border-radius: 30px; /* Adjust the value for desired roundness */
+  padding: 20px; /* Adjust the padding as needed */
+  border: 0.8px solid #f5f5f5b3; /* Add a 3px solid border with the desired color */
+}
+
+.standard {
+  min-width: 280px !important;
+  min-height: 640px !important;
+}
+
+/* Add more size variations as needed */
+.small {
+  min-width: 280px !important;
+  min-height: 300px !important;
+}
+
+.small2 {
+  min-width: 280px !important;
+  min-height: 300px !important;
+}
+
+.large {
+  min-width: 280px !important;
+  min-height: 380px !important;
+  
+}
+
+.large2 {
+  min-width: 280px !important;
+  min-height: 380px !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.container> * {
+  margin-bottom: -14px;
+  margin-left: 70px; /* Adjust the value as needed */
+}
+
+.container2> * {
+  margin-bottom: -14px;
+  margin-left: 70px; /* Adjust the value as needed */
+}
+
+.container-right > * {
+  margin-bottom: 4px; /* Adjust the value as needed */
+}
+
+.container-left > * {
+  margin-bottom: -8px; /* Adjust the value as needed */
+}
+
+.container-left :nth-child(3) {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.container-right :nth-child(3) {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.container-right :nth-child(1) {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.container2 :nth-child(1) {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+
+
+
+
+.container-left {
+  /* Styles for the left container */
+  float: left;
+  width: calc(50% - 30px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.container-right {
+  /* Styles for the right container */
+  float: left; /* or float: right; */
+  width: calc(50% - 30px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 17px; /* Adjust the top margin as needed */
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+

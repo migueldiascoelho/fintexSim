@@ -1,0 +1,107 @@
+/* RealEstate.css */
+
+.real-estate-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 120px; /* Increase the gap as needed */
+    margin: 20px auto; /* Adjust margin to center horizontally */
+    max-width: 1100px;
+    max-height: 680px;
+    position: relative; /* Set container as a positioning context */
+  }
+  
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; /* Increase the gap as needed */
+  }
+  
+  .button-container {
+    position: absolute; 
+    top: 56%; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+  }
+
+  .button-container button {
+    background-color: #796993;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    border: 0.8px solid #f5f5f5b3; /* Add a 3px solid border with the desired color */
+    color: #f5f5f5;
+  }
+  
+  h3 {
+    text-align: center;
+    border: 0.5px solid #f5f5f591; /* Adjust the border width and color as needed */
+    border-radius: 30px;
+    padding: 10px; /* Adjust the padding to create space between text and border */
+    background-color: rgba(255, 255, 255, 0); /* Adjust the last value (0.5) for transparency */
+    font-size: 36px;
+  }
+
+  .checkbox-container labelText {
+    position: absolute;
+    top: 102px;
+    left: 280px;
+  }
+  
+  .checkbox-container2 labelText {
+    position: absolute;
+    top: 210px;
+    left: 60px;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For older versions of Chrome and Safari */
+    width: 15px;
+    height: 15px;
+    border: 1px solid #f5f5f588; /* Purple color */
+    border-radius: 5px;
+    background-color: #f5f5f500; /* Purple color */
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+    position: relative;
+    left: 100px;
+    top: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked {
+    background-color: #D49CFF; /* Purple color */
+  }
+
+  .checkbox-container2 input[type="checkbox"] {
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For older versions of Chrome and Safari */
+    width: 15px;
+    height: 15px;
+    border: 1px solid #f5f5f588; /* Purple color */
+    border-radius: 5px;
+    background-color: #f5f5f500; /* Purple color */
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+    position: relative;
+    left: 130px;
+    top: 9px;
+  }
+  
+  .checkbox-container2 input[type="checkbox"]:checked {
+    background-color: #D49CFF; /* Purple color */
+  }
+
+
+  .hidden-element {
+    opacity: 0;
+    transition: visibility 0s, opacity 0s;
+  }
+  
+  .mistery {
+    display: none !important;
+  }

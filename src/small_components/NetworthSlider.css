@@ -1,0 +1,77 @@
+/* NetworthSlider.css */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+
+.networth-slider-container {
+  margin-bottom: 40px;
+}
+
+.networth-slider-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.rc-slider {
+  width: 100%;
+}
+
+.rc-slider-rail {
+  height: 8px;
+  background-color: #ddd; /* Rail color */
+}
+
+.rc-slider-track {
+  height: 8px;
+  background-color: #5E5473; /* Track color */
+}
+
+.rc-slider-handle {
+  border-color: #5E5473; /* Handle border color */
+  background-color: #fff; /* Handle background color */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Handle box shadow */
+  width:16px;
+  height:16px;
+}
+
+.rc-slider-handle:hover {
+  border-color: #5E5473; /* Handle border color on hover */
+}
+
+.rc-slider-handle:focus {
+  border-color: #78509a; /* Handle border color on focus */
+}
+
+.rc-slider-handle:active {
+  outline: #78509a;
+}
+
+.rc-slider-mark-text {
+  font-size: 12px;
+  color: #666;
+}
+
+.rc-slider-mark-text-active {
+  color: #7d4792; /* Active mark text color */
+}
+
+.networth-slider-input {
+  width: 60px; /* Adjust the width as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+  appearance: textfield; /* Reset the appearance to textfield for Firefox */
+  -moz-appearance: textfield; /* Reset the appearance to textfield for Firefox */
+  margin: 0; /* Remove input field default margin */
+  color: white; /* Make the text white */
+  background: transparent; /* Make the background transparent */
+  border: none; /* Remove the border */
+  outline: none; /* Remove the outline */
+}
+
+/* Hide the spinner arrows for number input */
+.networth-slider-input::-webkit-inner-spin-button,
+.networth-slider-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;  /* Hide spinner arrows for Chrome and Safari */
+  margin: 0; /* Remove inner padding and default margin in Chrome/Safari */
+}
+

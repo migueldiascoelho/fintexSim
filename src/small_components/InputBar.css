@@ -1,0 +1,74 @@
+.input-bar-container input[type="number"] {
+  box-sizing: border-box;
+  width: 80%;
+  height: 50%;
+  margin: 0 0 1em;
+  padding: 6px;
+  border: 1px solid #f5f5f5da;
+  border-radius: 10px;
+  background: #ffffff00;
+  color: #f5f5f5;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+  margin-top: 10px;
+  text-align: right; /* Set text alignment to right */
+}
+
+.input-bar-container input[type="number"]:focus {
+  border-color: #f5f5f5;
+}
+
+.input-bar-container input[type="number"]:focus + label[placeholder]:before {
+  color: #f5f5f5;
+}
+
+.input-bar-container input[type="number"]:focus + label[placeholder]:before,
+.input-bar-container input[type="number"]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  transform: translate(0, -0.6em) scale(0.9, 0.9);
+  font-weight: bold;
+}
+
+.input-bar-container input[type="number"]:valid {
+  border-color: #f5f5f5;
+}
+
+.input-bar-container input[type="number"]:valid + label[placeholder]:before {
+  color: #f5f5f5;
+}
+
+.input-bar-container input[type="number"]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+
+.input-bar-container input[type="number"] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+
+.input-bar-container input[type="number"] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(0.5em + 2px);
+  padding: 0 2px;
+  color: #f5f5f57d;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-size: 100% 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-bar-container input[type="number"]:not(:placeholder-shown):focus + label[placeholder]:before,
+.input-bar-container input[type="number"]:not(:placeholder-shown):valid + label[placeholder]:before {
+  background-image: linear-gradient(to bottom, #333, #333);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}

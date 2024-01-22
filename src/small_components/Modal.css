@@ -1,0 +1,203 @@
+/* Modal.css */
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 76%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 286px;
+  }
+  
+  .modal {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 850px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .horizontal-line {
+    position: absolute;
+    background-color: black;
+    height: 1px; /* Adjust the height as needed */
+    width: 600px;
+    margin: 20px auto; /* Adjust the margin to center the line */
+    top: 270px;
+  }
+
+  .vertical-line {
+    position: absolute;
+    background-color: black;
+    height: 500px; /* Adjust the height as needed */
+    width: 0.5px; /* Adjust the width as needed */
+    margin: 0 20px; /* Adjust the left, right, and middle spacing */
+    top:40px;
+  }
+
+  .quadrant-container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+  
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+
+  .quadrant-text1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #333; /* Adjust the color as needed */
+    margin-left: 50px; /* Remove any default margin */
+    margin-top: 30px;
+    width: 271px;
+  }
+
+  .quadrant-text11 {
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    color: #333; /* Adjust the color as needed */
+    margin-left: 150px; /* Remove any default margin */
+    margin-top: 20px;
+    width: 271px;
+  }
+
+  .quadrant-text2 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 200px; /* Remove any default margin */
+    margin-top: 30px;
+    width: 271px;
+  }
+
+  .quadrant-text3 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 40px; /* Remove any default margin */
+    margin-top: 20px;
+    width: 380px;
+  }
+
+  .quadrant-text31 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 40px; /* Remove any default margin */
+    margin-top: 90px;
+    width: 380px;
+  }
+
+  .quadrant-text32 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 40px; /* Remove any default margin */
+    margin-top: 170px;
+    width: 380px;
+  }
+
+  .quadrant-text21 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    color: #197C00; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 20px; /* Remove any default margin */
+    margin-top: 206px;
+    width: 271px;
+  }
+
+  .quadrant-text22 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 220px; /* Remove any default margin */
+    margin-top: 240px;
+    width: 271px;
+  }
+
+  .quadrant-text4 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 100px; /* Remove any default margin */
+    margin-top: 0px;
+    width: 271px;
+    text-align: right;
+  }
+
+  .quadrant-text41 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 50px;
+    right: 120px; /* Remove any default margin */
+    margin-top: 170px;
+    width: 271px;
+    text-align: right;
+  }
+
+  .quadrant-text42 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #197C00; /* Adjust the color as needed */
+    margin-right: 50px;
+    left: 70px; /* Remove any default margin */
+    margin-top: 170px;
+    width: 271px;
+    text-align: right;
+  }
