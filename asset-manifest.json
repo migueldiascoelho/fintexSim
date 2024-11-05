@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fintexSim/static/css/main.f9c6ccc3.css",
+    "main.js": "/fintexSim/static/js/main.c9bb5eab.js",
+    "static/js/787.7b0c85db.chunk.js": "/fintexSim/static/js/787.7b0c85db.chunk.js",
+    "static/media/fintexLogo.png": "/fintexSim/static/media/fintexLogo.c4a1a2227747cc04d80e.png",
+    "index.html": "/fintexSim/index.html",
+    "main.f9c6ccc3.css.map": "/fintexSim/static/css/main.f9c6ccc3.css.map",
+    "main.c9bb5eab.js.map": "/fintexSim/static/js/main.c9bb5eab.js.map",
+    "787.7b0c85db.chunk.js.map": "/fintexSim/static/js/787.7b0c85db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9c6ccc3.css",
+    "static/js/main.c9bb5eab.js"
+  ]
+}
